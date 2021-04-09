@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Task-remainder</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="signin.css">
+
+
+</head>
+
+<body class="background">
+    <div class="signup-form-main">
+
+        <section class="signup">
+
+            <div class="container">
+                <div class="signup-content">
+                    <form action="signup-submission.html" method="POST" id="signup-form" class="signup-form">
+                        <h2 class="form-title">Create account</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" name="name" id="name" placeholder="Your Name" />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control input-lg" name="email" id="email" placeholder="Your Email" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control input-lg" name="password" id="password" placeholder="Password" />
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control input-lg" name="re_password" id="re_password" placeholder="Repeat your password" />
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success btn-lg btn-block signup-btn">Submit</button>
+
+                        </div>
+                        <div class="or-seperator"><b>or</b></div>
+                        <div class="social-btn text-center">
+                            <p class="hint-text">Sign in with your social media account</p>
+                            <a href="#" class="btn btn-primary btn-lg" title="Facebook"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="btn btn-info btn-lg" title="Twitter"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="btn btn-danger btn-lg" title="Google"><i class="fa fa-google"></i></a>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                        Have already an account ? <a href="index.html" class="">Login here</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+</body>
+
+</html>
