@@ -1,0 +1,284 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+ body{
+    font-size: 18px !important;
+    font-family: sans-serif;
+}
+/**************    Nav bar ********************/
+ #wrapper {
+    overflow-x: hidden;
+    background-color: white;}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+  
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+
+.navbar{
+  color:#207DFF ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #207DFF;
+  font-weight: bold;
+}
+
+
+.btn{
+  color:#207DFF !important
+}
+.btn-success{
+  color: #fff !important;
+
+}
+.navbar {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  background:#207DFF !important ;
+}
+
+.border-right {
+  border-right: 1px solid #fff !important;
+}
+
+/*left icons*/
+.navbar-light .navbar-nav .nav-link {
+  color:  #207DFF !important;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: sans-serif;
+
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+
+
+/*********** nav bar end ***************/
+
+/*Agenda-Card
+custom-control {
+  position: relative;
+  z-index: 1;
+  display: block;
+  height: 0.5rem;
+  padding-left: 1.5rem;
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+ 
+}/*
+/*Agenda*/
+.add-todo{
+  background-color:#207DFF;
+  color:#fff;
+  margin-left: 18%;
+  margin-top:15px;
+  border-radius: 20px;
+  }
+.card-agenda {
+  width: 65%;
+  margin: 0 auto;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+  margin-top: 25%px;
+  border: 1px solid #eee;
+}
+
+.add-habit-btn{
+  background-color: #FFF;
+  color:#207DFF;  
+  border :2px solid #207DFF;  
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding:10px;
+  border-radius: 25px;
+} 
+
+
+
+.add-habit-btn:hover{
+  background-color: #207DFF;
+  color:#fff;  
+  border :1px solid #207DFF;  
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding:10px;
+  border-radius: 25px;
+} 
+
+
+.ok-btn{
+  background-color: #FFF;
+  color:#207DFF;  
+  border :2px solid #207DFF;  
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding:10px 30px 10px 30px;
+  border-radius: 25px;
+} 
+
+.ok-btn:hover{
+  background-color: #207DFF;
+  color:#fff;  
+  border :2px solid #207DFF;  
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding:10px 30px 10px 30px;
+
+  border-radius: 25px;
+} 
+
+
+.pt-50{
+  padding-top:50px !important;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+
+.blue-background{
+  background-color: #207DFF !important;
+}
+ul li .color-white{
+  color: #fff !important;
+}
+
+.text-left.cursor{
+  cursor: pointer !important;
+}
+.modal-footer.text-align-center{
+  
+  text-align: center !important;
+}
+h2{
+  color:#207DFF !important;
+  font-family: sans-serif;
+}
+.text-align-center{  
+  text-align: center !important;
+}
+.modal-footer{
+  justify-content: center;
+  justify-items: center;
+  
+}
+/*dashboard*/
+.card-dashboard{
+  position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: 1px solid #d2d2dc;
+            border-radius: 0
+}
+
+
+.habit-tracker.table {
+
+  width: 20px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0px 2px 2px rgb(0 0 0 / 30%);
+  margin-top: 25px;
+  border: 1px solid #eee;
+}
+
+.habit-tracker.text-left {
+  text-align: left !important;
+  font-size: 15px;
+  text-align: center !important;
+}
+
+.habit-tracker.days {
+  font-size: 13px;
+}
+
+.habit-tracker.tracker-table {
+  padding: 100px 20px 0px 20px;
+  width: auto;
+}
+
+.habit-tracker table th, .dashboard table th {
+  background-color: #207DFF;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.habit-tracker.text-left {
+  text-align: left !important;
+}
+
+
+.habit-tracker.text-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.font-size{
+  font-size: 18px !important;
+}
